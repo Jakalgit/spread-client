@@ -53,9 +53,9 @@
 
 @media (max-width: 767px) {
     .page {
-        font-size: 1rem;
-        mmargin-right: 0;
-        margin-left: 0;
-        margin-top: 0.8rem;
+        font-size: 0.8rem;
+        mmargin-right: 4rem;
+        margin-left: 4rem;
+        margin-top: 0.5rem;
     }
 }
