@@ -1,0 +1,190 @@
+.info {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 17rem;
+    margin-bottom: 0;
+    color: #fff;
+}
+.block {
+    text-align: center;
+}
+.mont {
+    display: inline-block;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.head {
+    font-size: 3.5rem;
+    color: #F57F17;
+    font-weight: bold;
+    margin-top: 14rem;
+}
+.text {
+    font-size: 2rem;
+    color: #fff;
+}
+.buy {
+    margin-top: 4rem;
+    display: inline-block;
+    min-width: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #F57F17;
+    transition: all 0.2s;
+}
+.buy:hover {
+    cursor: pointer;
+    color: #FFBC81;
+}
+@media (max-width: 1199px) {
+    .info {
+        font-size: 1.4rem;
+    }
+    .image_block {
+        margin-top: 5rem;
+        height: 6rem;
+    }
+    .head {
+        font-size: 3rem;
+    }
+    .text {
+        font-size: 1.5rem;
+    }
+    .href {
+        font-size: 1.5rem;
+    }
+    .buy {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    .price {
+        font-size: 2rem;
+    }
+    .price_text {
+        margin-top: 10rem;
+        font-size: 2rem;
+    }
+}
+@media (max-width: 991px) {
+    .info {
+        font-size: 1.1rem;
+        margin-top: 14rem;
+    }
+    .image_block {
+        margin-top: 3rem;
+        height: 4rem;
+    }
+    .head {
+        font-size: 2.7rem;
+        margin-top: 8rem;
+    }
+    .text {
+        font-size: 1.2rem;
+    }
+    .href {
+        font-size: 1.2rem;
+    }
+    .buy {
+        font-size: 1.2rem;
+        margin-top: 1.6rem;
+    }
+    .price {
+        font-size: 1.7rem;
+    }
+    .price_text {
+        margin-top: 7rem;
+        font-size: 1.7rem;
+    }
+}
+@media (max-width: 767px) {
+    .info {
+        font-size: 0.8rem;
+    }
+    .image_block {
+        margin-top: 3rem;
+        height: 4rem;
+    }
+    .text_block {
+        margin-top: 5rem;
+    }
+    .head {
+        font-size: 1.9rem;
+    }
+    .text {
+        font-size: 1rem;
+    }
+    .href {
+        font-size: 1rem;
+    }
+    .buy {
+        font-size: 1rem;
+        margin-top: 1.3rem;
+    }
+    .price {
+        font-size: 1.4rem;
+    }
+    .price_text {
+        margin-top: 5rem;
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 575px) {
+    .info {
+        font-size: 0.65rem;
+        margin-top: 10rem;
+    }
+    .text_block {
+        margin-top: 5rem;
+    }
+    .head {
+        font-size: 1.6rem;
+        margin-top: 5rem;
+    }
+    .text {
+        font-size: 0.8rem;
+    }
+    .href {
+        font-size: 0.8rem;
+    }
+    .buy {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+    .price {
+        font-size: 1.2rem;
+    }
+    .price_text {
+        margin-top: 4rem;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 410px) {
+    .info {
+        font-size: 0.5rem;
+        margin-top: 9rem;
+    }
+    .text_block {
+        margin-top: 2rem;
+    }
+    .head {
+        font-size: 1.2rem;
+        margin-top: 4rem;
+    }
+    .text {
+        font-size: 0.7rem;
+    }
+    .href {
+        font-size: 0.7rem;
+    }
+    .buy {
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+    .price {
+        font-size: 1.1rem;
+    }
+    .price_text {
+        font-size: 1.1rem;
+        margin-top: 3rem;
+    }
+}

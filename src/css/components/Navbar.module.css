@@ -1,0 +1,57 @@
+.header {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    padding: 0;
+}
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 5rem;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1rem;
+    border-bottom-color: #F9A825;
+}
+.page {
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #F57F17;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 0;
+    transition: all 0.2s;
+}
+.page:hover {
+    cursor: pointer;
+    color: #FFBC81;
+}
+@media (max-width: 1399px) {
+    .page {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+}
+@media (max-width: 1199px) {
+    .page {
+        font-size: 1rem;
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+}
+@media (max-width: 991px) {
+    .page {
+        font-size: 0.9rem;
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .page {
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,12 @@
+body {
+    min-width: 320px;
+    background-color: #000;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+body::-webkit-scrollbar {
+    color: #000;
+}
+.react-reveal{
+    animation-fill-mode: backwards !important;
+}
