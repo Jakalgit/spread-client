@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className={style_css.footer}>
-                        <a href="tel:+79859532696" className={style_css.footer_text}>+7(985)-953-26-96</a>
+                        <a href="tel:+79165867544" className={style_css.footer_text}>+7(916)-586-75-44</a>
                         <h2 className={style_css.footer_text}>bcrypto435@gmail.com</h2>
                     </div>
                 </div>
