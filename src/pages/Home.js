@@ -90,7 +90,7 @@ const Home = () => {
                             </Fade>
                             <Fade>
                                 <h2 className={style_css.text}>Если у вас остались вопросы, то вы можете позвонить по
-                                    номеру <a href="tel:+79859532696" className={style_css.phone_number}>+7(916)-586-75-44</a> и
+                                    номеру <a href="tel:+79165867544" className={style_css.phone_number}>+7(916)-586-75-44</a> и
                                     задать их.
                                 </h2>
                             </Fade>
